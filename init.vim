@@ -1,7 +1,7 @@
 set mouse=a
 set tabstop=4 				
 set shiftwidth=4 			
-set laststatus=3
+set laststatus=3 "nvim 0.7
 set number	
 set relativenumber
 set smartindent
@@ -89,8 +89,9 @@ nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>h :History<CR>
 
 " Emmet
-let g:user_emmet_mode='n' 		"enable all function in all mode
+let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=',' "use <,,> to trigger emmet
+"let g:user_emmet_mode='a' 		  "enable all function in all mode
 
 "======================================================= 
 
